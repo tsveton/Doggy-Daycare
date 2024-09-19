@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1060px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.main{
+    background-image: url(../img/bg-main.png);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__wrap{
+    padding-left: 210px;
+    padding-top: 280px;
+}
+
+.main__title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    color: #FFF;
+    max-width: 580px;
+    padding-bottom: 50px;
+}
+
+.btn{
+    background-color: #F2726F;
+    padding: 12px 25px ;
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.about{
+    padding-bottom: 122px;
+
+    &__wrap{
+        height: 700px;
+        background-color: #5D62B5;
+        border-radius: 40px;
+        margin-top: -80px;
+        position: relative;
+    }
+
+    &__box{
+        padding:87px 100px;
+
+        &-title{
+            font-weight: 900;
+            font-size: 36px;
+            font-family: "Roboto", sans-serif;
+            color: #FFF;
+            padding-top: 33px;
+            padding-bottom: 36px;
+            max-width: 580px;
+        }    
+            
+        &-logo{
+            display: flex;
+            align-items: center;
+            gap: 18px;
+
+            &-text{
+                color: #FFF;
+                font-size: 12px;
+                font-weight: 700;
+                font-family: "Roboto", sans-serif;
+                text-transform: uppercase;
+            }    
+        }
+
+        &-text{
+            font-weight: 400;
+            font-size: 16px;
+            font-family: "Roboto", sans-serif;
+            color: #FFF;
+        }
+    }
+
+
+    &__dots{
+        position: absolute;
+        top: -110px;
+        right: -70px;
+    }   
+
+    &__dog{
+        position: absolute;
+        border-radius: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -120px;
+        z-index: 1;
+    }   
+
+    &__blob{
+        position: absolute;
+        bottom: -160px;
+    }
+
+    &__box2{
+        padding-top: 230px;
+
+        &-logo{
+            display: flex;
+            align-items: center;
+
+            &-text{
+                color:#5D62B5;
+                font-size: 12px;
+                font-weight: 700;
+                font-family: "Roboto", sans-serif;
+                text-transform: uppercase;
+            }
+
+        }
+
+        &-title{
+            font-weight: 900;
+            font-size: 36px;
+            font-family: "Roboto", sans-serif;
+            padding-top: 33px;
+            padding-bottom: 42px;
+        }
+
+        &-line{
+            display: flex;
+            gap: 24px;
+            width: 1020px;
+        }
+
+        &-card{
+            display: flex;
+            max-width: 325px;
+            align-items:center;
+            gap: 10px;
+
+            &-img{
+                max-width: 63px;
+                padding-bottom: 70px;
+            }
+
+            &-texts{
+                max-width: 235px;
+            }
+
+            &-text-title{
+                color: #F2726F;
+                font-weight: 900;
+                font-size: 19px;
+                padding-bottom: 20px;
+                font-family: "Roboto", sans-serif;
+            }
+
+            &-text-sub-title{
+                margin-top:  0px;
+                font-weight: 400;
+                font-size: 16px;
+                color: #4B4B4B;
+                font-family: "Roboto", sans-serif;
+            }
+        }
+    }
+}
+
+.baner{
+    background-color: #29C3BE;
+
+    &__box{
+        display: flex;
+        flex-direction: column ;
+        padding-top: 112px;
+        padding-left: 819px;
+        gap: 50px;
+        z-index: 1;
+
+        &-title{
+            color: #FFF;
+            font-weight:900;
+            font-size: 32px;
+            font-family: "Roboto", sans-serif;
+            max-width: 369px;
+            z-index: 2;
+        }
+
+        &-btn{
+            padding-bottom: 193px ;
+        }
+    }
+
+    &__circles{
+        position: absolute;
+        bottom: -1700px;
+    }
+
+    &__blob{
+        position: absolute;
+    }
+
+    &__pup{
+        position: absolute;
+        bottom: -1800px;
+    }
+
+    &__zip{
+        position: absolute;
+        left: 800px;
+        bottom: -1700px;
+        z-index: 1;
+    }
+
+    &__ball{
+        position: absolute;
+        left:1340px;
+        bottom: -1600px;
+        z-index: 2;
+    }
+}
